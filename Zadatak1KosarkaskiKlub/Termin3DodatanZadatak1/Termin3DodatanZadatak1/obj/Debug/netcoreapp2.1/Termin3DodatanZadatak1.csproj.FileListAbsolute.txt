@@ -20,3 +20,14 @@ C:\Users\Fanatic\Desktop\Termin3DodatanZadatak1\Termin3DodatanZadatak1\obj\Debug
 C:\Users\Fanatic\Desktop\Termin3DodatanZadatak1\Termin3DodatanZadatak1\obj\Debug\netcoreapp2.1\Termin3DodatanZadatak1.AssemblyInfo.cs
 C:\Users\Fanatic\Desktop\Termin3DodatanZadatak1\Termin3DodatanZadatak1\obj\Debug\netcoreapp2.1\Termin3DodatanZadatak1.dll
 C:\Users\Fanatic\Desktop\Termin3DodatanZadatak1\Termin3DodatanZadatak1\obj\Debug\netcoreapp2.1\Termin3DodatanZadatak1.pdb
+C:\Users\XANDRO\Desktop\temp\Zadatak1KosarkaskiKlub\Termin3DodatanZadatak1\Termin3DodatanZadatak1\bin\Debug\netcoreapp2.1\Termin3DodatanZadatak1.deps.json
+C:\Users\XANDRO\Desktop\temp\Zadatak1KosarkaskiKlub\Termin3DodatanZadatak1\Termin3DodatanZadatak1\bin\Debug\netcoreapp2.1\Termin3DodatanZadatak1.runtimeconfig.json
+C:\Users\XANDRO\Desktop\temp\Zadatak1KosarkaskiKlub\Termin3DodatanZadatak1\Termin3DodatanZadatak1\bin\Debug\netcoreapp2.1\Termin3DodatanZadatak1.runtimeconfig.dev.json
+C:\Users\XANDRO\Desktop\temp\Zadatak1KosarkaskiKlub\Termin3DodatanZadatak1\Termin3DodatanZadatak1\bin\Debug\netcoreapp2.1\Termin3DodatanZadatak1.dll
+C:\Users\XANDRO\Desktop\temp\Zadatak1KosarkaskiKlub\Termin3DodatanZadatak1\Termin3DodatanZadatak1\bin\Debug\netcoreapp2.1\Termin3DodatanZadatak1.pdb
+C:\Users\XANDRO\Desktop\temp\Zadatak1KosarkaskiKlub\Termin3DodatanZadatak1\Termin3DodatanZadatak1\obj\Debug\netcoreapp2.1\Termin3DodatanZadatak1.csprojAssemblyReference.cache
+C:\Users\XANDRO\Desktop\temp\Zadatak1KosarkaskiKlub\Termin3DodatanZadatak1\Termin3DodatanZadatak1\obj\Debug\netcoreapp2.1\Termin3DodatanZadatak1.csproj.CoreCompileInputs.cache
+C:\Users\XANDRO\Desktop\temp\Zadatak1KosarkaskiKlub\Termin3DodatanZadatak1\Termin3DodatanZadatak1\obj\Debug\netcoreapp2.1\Termin3DodatanZadatak1.AssemblyInfoInputs.cache
+C:\Users\XANDRO\Desktop\temp\Zadatak1KosarkaskiKlub\Termin3DodatanZadatak1\Termin3DodatanZadatak1\obj\Debug\netcoreapp2.1\Termin3DodatanZadatak1.AssemblyInfo.cs
+C:\Users\XANDRO\Desktop\temp\Zadatak1KosarkaskiKlub\Termin3DodatanZadatak1\Termin3DodatanZadatak1\obj\Debug\netcoreapp2.1\Termin3DodatanZadatak1.dll
+C:\Users\XANDRO\Desktop\temp\Zadatak1KosarkaskiKlub\Termin3DodatanZadatak1\Termin3DodatanZadatak1\obj\Debug\netcoreapp2.1\Termin3DodatanZadatak1.pdb

@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\XANDRO\\Desktop\\test\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj",
+      "projectUniqueName": "C:\\Users\\XANDRO\\Desktop\\temp\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj",
       "projectName": "Termin3DodatanZadatak1",
-      "projectPath": "C:\\Users\\XANDRO\\Desktop\\test\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj",
+      "projectPath": "C:\\Users\\XANDRO\\Desktop\\temp\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj",
       "packagesPath": "C:\\Users\\XANDRO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\XANDRO\\Desktop\\test\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\obj\\",
+      "outputPath": "C:\\Users\\XANDRO\\Desktop\\temp\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -8,7 +8,14 @@ namespace Termin3DodatanZadatak1.Models
     {
         public int sifraKluba;
         public string nazivKluba;
-        public List<Igrac> igrList = new List<Igrac>();
+        public List<Igrac> igrList;
+
+        
+        public Klub()
+        {
+            igrList = new List<Igrac>();
+        }
+
 
     }
 }
