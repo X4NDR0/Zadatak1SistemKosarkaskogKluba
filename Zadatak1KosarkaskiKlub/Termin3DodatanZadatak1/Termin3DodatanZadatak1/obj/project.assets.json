@@ -554,7 +554,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "Er6m68NQLELVqrTis7LzVOnPgVZVds2PhsU+0es4ECbNFhLVRbHE1BfALCiBtRrlmJyIIR9xryCn6BIGgAFVoQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\XANDRO\\.nuget\\packages\\": {},
+    "C:\\Users\\Fanatic\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\XANDRO\\Desktop\\temp\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj",
+      "projectUniqueName": "C:\\Users\\Fanatic\\Source\\Repos\\Zadatak1SistemKosarkaskogKluba\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj",
       "projectName": "Termin3DodatanZadatak1",
-      "projectPath": "C:\\Users\\XANDRO\\Desktop\\temp\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj",
-      "packagesPath": "C:\\Users\\XANDRO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\XANDRO\\Desktop\\temp\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\obj\\",
+      "projectPath": "C:\\Users\\Fanatic\\Source\\Repos\\Zadatak1SistemKosarkaskogKluba\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj",
+      "packagesPath": "C:\\Users\\Fanatic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fanatic\\Source\\Repos\\Zadatak1SistemKosarkaskogKluba\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\XANDRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Fanatic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

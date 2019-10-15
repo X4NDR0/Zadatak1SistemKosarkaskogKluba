@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\XANDRO\\Desktop\\temp\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj": {}
+    "C:\\Users\\Fanatic\\Source\\Repos\\Zadatak1SistemKosarkaskogKluba\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\XANDRO\\Desktop\\temp\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj": {
+    "C:\\Users\\Fanatic\\Source\\Repos\\Zadatak1SistemKosarkaskogKluba\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\XANDRO\\Desktop\\temp\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj",
+        "projectUniqueName": "C:\\Users\\Fanatic\\Source\\Repos\\Zadatak1SistemKosarkaskogKluba\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj",
         "projectName": "Termin3DodatanZadatak1",
-        "projectPath": "C:\\Users\\XANDRO\\Desktop\\temp\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj",
-        "packagesPath": "C:\\Users\\XANDRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\XANDRO\\Desktop\\temp\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\obj\\",
+        "projectPath": "C:\\Users\\Fanatic\\Source\\Repos\\Zadatak1SistemKosarkaskogKluba\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1.csproj",
+        "packagesPath": "C:\\Users\\Fanatic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fanatic\\Source\\Repos\\Zadatak1SistemKosarkaskogKluba\\Zadatak1KosarkaskiKlub\\Termin3DodatanZadatak1\\Termin3DodatanZadatak1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\XANDRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fanatic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

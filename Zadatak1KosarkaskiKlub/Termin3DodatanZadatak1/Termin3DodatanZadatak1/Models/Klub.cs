@@ -1,21 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Termin3DodatanZadatak1.Models
 {
     public class Klub
     {
-        public int sifraKluba;
-        public string nazivKluba;
-        public List<Igrac> igrList;
+        public int SifraKluba;
+        public string NazivKluba;
+        public List<Igrac> ListaIgraca;
 
-        
         public Klub()
         {
-            igrList = new List<Igrac>();
+            ListaIgraca = new List<Igrac>();
         }
-
-
     }
 }
