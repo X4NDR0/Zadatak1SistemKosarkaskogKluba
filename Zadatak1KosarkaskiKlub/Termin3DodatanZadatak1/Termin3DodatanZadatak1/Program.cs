@@ -180,8 +180,8 @@ namespace Termin3DodatanZadatak1
             Sudija sudj1 = new Sudija { SifraSudije = 5462, ImeSudije = "Boban", PrezimeSudije = "Jovanovic" };
             Sudija sudj2 = new Sudija { SifraSudije = 7487, ImeSudije = "Djordje", PrezimeSudije = "Simic" };
 
-            Utakmica utkm1 = new Utakmica { SifraUtakmice = 5735, VremeUtakmice = new DateTime(2019, 5, 10, 19, 38, 40), BrojKosevaGostiju = 5, BrojKosevaDomacina = 5, sdj = sudj1 };
-            Utakmica utkm2 = new Utakmica { SifraUtakmice = 3337, VremeUtakmice = new DateTime(2019, 1, 1, 12, 55, 00), BrojKosevaGostiju = 60, BrojKosevaDomacina = 10, sdj = sudj2 };
+            Utakmica utkm1 = new Utakmica { SifraUtakmice = 5735, VremeUtakmice = new DateTime(2019, 05, 30, 19, 38, 40), BrojKosevaGostiju = 5, BrojKosevaDomacina = 5, sdj = sudj1, domaciKlub = klb1, gostujuciKlub = klb2 };
+            Utakmica utkm2 = new Utakmica { SifraUtakmice = 3337, VremeUtakmice = new DateTime(2019, 10, 31, 12, 55, 00), BrojKosevaGostiju = 60, BrojKosevaDomacina = 10, sdj = sudj2, domaciKlub = klb2, gostujuciKlub = klb1 };
 
             //Dodavanje utakmica
             ukmList.Add(utkm1);
@@ -206,6 +206,7 @@ namespace Termin3DodatanZadatak1
             Console.WriteLine("2.Prikazi utakmicu pomocu sifre");
             Console.WriteLine("3.Izmeni utakmicu");
             Console.WriteLine("4.Obrisi utakmicu");
+            Console.WriteLine("5.Kreiraj utakmicu");
             Console.Write("Unos:");
 
             izabirMeniUtakmice = Convert.ToInt32(Console.ReadLine());
@@ -216,7 +217,7 @@ namespace Termin3DodatanZadatak1
                     Console.Clear();
                     foreach (Utakmica ukmList in ukmList)
                     {
-                        Console.Write("Sifra utakmice:" + ukmList.SifraUtakmice + "\n" + "Vreme utakmice:" + ukmList.VremeUtakmice + "\n" + "Broj koseva gostiju:" + ukmList.BrojKosevaGostiju + "\n" + "Broj koseva domacina:" + ukmList.BrojKosevaDomacina + "\n" + "Sudija:" + ukmList.sdj.ImeSudije + " " + ukmList.sdj.PrezimeSudije + "\n");
+                        Console.Write("Sifra utakmice:" + ukmList.SifraUtakmice + "\n" + "Vreme utakmice:" + ukmList.VremeUtakmice + "\n" + "Broj koseva gostiju:" + ukmList.BrojKosevaGostiju + "\n" + "Broj koseva domacina:" + ukmList.BrojKosevaDomacina + "\n" + "Domaci klub:" + ukmList.domaciKlub.nazivKluba + "\n" + "Gostujuci klub:" + ukmList.gostujuciKlub.nazivKluba + "\n" + "Sudija:" + ukmList.sdj.ImeSudije + " " + ukmList.sdj.PrezimeSudije + "\n");
                     }
                     break;
 
@@ -231,7 +232,8 @@ namespace Termin3DodatanZadatak1
                     {
                         if (sifraUtakmiceSelektovanje == ukmList.SifraUtakmice)
                         {
-                            Console.Write("Sifra utakmice:" + ukmList.SifraUtakmice + "\n" + "Vreme utakmice:" + ukmList.VremeUtakmice + "\n" + "Broj koseva gostiju:" + ukmList.BrojKosevaGostiju + "\n" + "Broj koseva domacina:" + ukmList.BrojKosevaDomacina + "\n" + "Sudija:" + ukmList.sdj + " " + ukmList.sdj.PrezimeSudije + "\n");
+                            Console.Write("Sifra utakmice:" + ukmList.SifraUtakmice + "\n" + "Vreme utakmice:" + ukmList.VremeUtakmice + "\n" + "Broj koseva gostiju:" + ukmList.BrojKosevaGostiju + "\n" + "Broj koseva domacina:" + ukmList.BrojKosevaDomacina + "\n" + "Domaci klub:" + ukmList.domaciKlub.nazivKluba + "\n" + "Gostujuci klub:" + ukmList.gostujuciKlub.nazivKluba + "\n" + "Sudija:" + ukmList.sdj.ImeSudije + " " + ukmList.sdj.PrezimeSudije + "\n");
+                            Console.WriteLine();
                         }
                     }
 
@@ -306,10 +308,95 @@ namespace Termin3DodatanZadatak1
                     if (success)
                     {
                         Console.WriteLine("Uspesno ste obrisali utakmicu!");
-                    }else
+                    }
+                    else
                     {
                         Console.WriteLine("Greska prilikom brisanja!");
                     }
+
+                    break;
+
+                case 5:
+                    //Promenjive
+                    int addSifraUtakmice;
+                    DateTime addVremeUtakmice;
+                    int addBrojKosevaDomacina;
+                    int addBrojKosevaGostiju;
+
+                    int sifraDomacegKlubaSelektovanje;
+                    int sifraGostujucegKlubaSelektovanje;
+                    int sifraSudijeSelektovanje;
+                    //obj
+                    Klub domaciKlubAdd = new Klub();
+                    Klub gostujuciKlubAdd = new Klub();
+                    Sudija sudijaAdd = new Sudija();
+
+                    Console.Write("Unesite sifru utakmice:");
+                    addSifraUtakmice = Convert.ToInt32(Console.ReadLine());
+
+                    Console.Write("Unesite vreme utakmice:");
+                    DateTime.TryParse(Console.ReadLine(), out addVremeUtakmice);
+
+                    Console.Write("Unesite sifru domaceg kluba:");
+                    foreach (Klub klub in klbList)
+                    {
+                        Console.WriteLine(klub.sifraKluba + " " + klub.nazivKluba);
+                    }
+
+                    Console.Write("Unos:");
+                    sifraDomacegKlubaSelektovanje = Convert.ToInt32(Console.ReadLine());
+
+                    foreach (Klub klub in klbList)
+                    {
+                        if (klub.sifraKluba == sifraDomacegKlubaSelektovanje)
+                        {
+                            domaciKlubAdd = klub;
+                        }
+                    }
+
+                    Console.Write("Unesite broj koseva domaceg kluba,a ako nema upiste 0:");
+                    addBrojKosevaDomacina = Convert.ToInt32(Console.ReadLine());
+
+
+                    Console.Write("Unesite sifru gostujuceg kluba:");
+
+                    foreach (Klub klub in klbList)
+                    {
+                        Console.WriteLine(klub.sifraKluba + " " + klub.nazivKluba);
+                    }
+
+                    Console.Write("Unos:");
+                    sifraGostujucegKlubaSelektovanje = Convert.ToInt32(Console.ReadLine());
+
+                    foreach (Klub klub in klbList)
+                    {
+                        if (klub.sifraKluba == sifraGostujucegKlubaSelektovanje)
+                        {
+                            gostujuciKlubAdd = klub;
+                        }
+                    }
+
+                    Console.Write("Unesite broj koseva gostucujeg kluba,a ako nema upiste 0:");
+                    addBrojKosevaGostiju = Convert.ToInt32(Console.ReadLine());
+
+                    Console.WriteLine("Unesite sifru sudije");
+
+                    foreach (Sudija sudija in sdjList)
+                    {
+                        Console.WriteLine(sudija.SifraSudije + " " + sudija.ImeSudije + " " + sudija.PrezimeSudije);
+                    }
+
+                    sifraSudijeSelektovanje = Convert.ToInt32(Console.ReadLine());
+
+                    foreach (Sudija sudija in sdjList)
+                    {
+                        if (sudija.SifraSudije == sifraSudijeSelektovanje)
+                        {
+                            sudijaAdd = sudija;
+                        }
+                    }
+
+                    Utakmica utakmicaAdd = new Utakmica { SifraUtakmice = addSifraUtakmice, VremeUtakmice = addVremeUtakmice, domaciKlub = domaciKlubAdd, BrojKosevaDomacina = addBrojKosevaDomacina, gostujuciKlub = gostujuciKlubAdd, BrojKosevaGostiju = addBrojKosevaGostiju,sdj = sudijaAdd};
 
                     break;
 
@@ -322,7 +409,7 @@ namespace Termin3DodatanZadatak1
 
         public static bool FindAndDeleteUtakmicu(int idUtakmice)
         {
-            foreach  (Utakmica utakmica in ukmList)
+            foreach (Utakmica utakmica in ukmList)
             {
                 if (utakmica.SifraUtakmice == idUtakmice)
                 {
